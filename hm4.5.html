@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poem</title>
+</head>
+<style>
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.title{
+    color: red;
+}
+
+.year{
+    color: rgb(53, 53, 53);
+}
+
+.year::after{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    height: 2px;
+    background-color: rgb(53, 53, 53);
+    position: relative;
+}
+
+.year::before{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    height: 2px;
+    background-color: rgb(53, 53, 53);
+    position: relative;
+}
+</style>
+<body>
+    <div>
+        <h2 class="title">Евгений Евтушенко</h2>
+        <p class="year">1955</p>
+        <p class="text">Бывало, спит у ног собака, <br>костер занявшийся гудит, <br>и женщина из полумрака<br> 
+            глазами зыбкими глядит. <br>Потом под пихтою приляжет <br>на куртку рыжую мою <br>и мне, <br>задумчивая, <br>скажет: <br>«А ну-ка, спой!..» - <br>и я пою. </p>
+    </div>
+</body>
+</html>
